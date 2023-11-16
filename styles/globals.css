@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    src: url("../assets/fonts/CharlieText.ttf");
+    font-family: 'ChalieText';
+    font-display: swap;
+}
+
+
+* {
+    font-family: 'ChalieText';
+    font-display: swap;
+}
