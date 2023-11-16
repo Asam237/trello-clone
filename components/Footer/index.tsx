@@ -15,7 +15,7 @@ const FooterComponent = () => {
           </div>
           {footer.map((item) => {
             return (
-              <div className="mx-4 lg:mx-0">
+              <div key={item.path} className="mx-4 lg:mx-0">
                 <h2 className="text-lg text-white">{item.title}</h2>
                 <p className="text-xs  text-white">{item.description}</p>
               </div>
