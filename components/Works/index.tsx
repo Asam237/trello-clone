@@ -12,7 +12,7 @@ const Works = () => {
             See work in a whole new way
           </h1>
           <p className="text-white text-sm lg:text-xl text-center py-2">
-            View your team's projects from every angle and bring a fresh
+            View your team&apos;s projects from every angle and bring a fresh
             perspective to
             <br />
             the task at hand.
@@ -34,9 +34,9 @@ const Works = () => {
                   </h1>
                   <p className="text-sm lg:text-lg text-gray-700 font-normal my-6">
                     From weekly sprints to annual planning, Timeline view keeps
-                    all tasks on track. Quickly get a glimpse of what's coming
+                    all tasks on track. Quickly get a glimpse of what&apos;s coming
                     down the pipeline and identify any gaps that might impede
-                    your team's progress.
+                    your team&apos;s progress.
                   </p>
                   <Link
                     href={"#"}

@@ -14,7 +14,7 @@ const PowerfulComponent = () => {
           Do more with Trello
         </h2>
         <p className="text-base lg:text-xl text-gray-700 font-normal mt-6 lg:w-7/12">
-          Trello's intuitive features give any team the ability to quickly set
+          Trello&apos;s intuitive features give any team the ability to quickly set
           up and customize workflows for just about anything.
         </p>
         <div className="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-10">
