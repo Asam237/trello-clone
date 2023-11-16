@@ -1,9 +1,11 @@
+import Trello101Component from "../../components/Trello101";
 import ButtonComponent from "../../components/commons/Button";
 import AppLayout from "../layout/app";
 
 const Home = () => {
   return (
     <AppLayout>
+      <Trello101Component />
       <div className="bg-pink-500 h-[60vh]">
         <h1>Hello Word</h1>
       </div>

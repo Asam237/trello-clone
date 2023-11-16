@@ -9,8 +9,8 @@ import { Logo } from "../../assets/imgs";
 
 const HeaderComponent = () => {
   return (
-    <header>
-      <div className="container mx-auto shadow-lg">
+    <header className="shadow-lg sticky bg-white z-50 top-0 left-0">
+      <div className="container mx-auto">
         <div className="flex items-center justify-between py-4 lg:py-0">
           <div className="flex items-center space-x-4">
             <Image src={Logo} alt="logo" className="w-40 h-14 object-contain" />
@@ -36,7 +36,9 @@ const HeaderComponent = () => {
             </nav>
           </div>
           <div className="hidden lg:flex items-center space-x-6">
-            <Link href="#login" className="text-lg">Log In</Link>
+            <Link href="#login" className="text-lg">
+              Log In
+            </Link>
             <ButtonComponent variant="text-white text-lg font-normal p-4 bg-blue-600">
               Get Trello for free
             </ButtonComponent>
