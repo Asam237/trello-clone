@@ -1,5 +1,6 @@
 import Head from "next/head";
 import HeaderComponent from "../../components/Header";
+import FooterComponent from "../../components/Footer";
 
 const AppLayout = ({ children }: any) => {
   return (
@@ -13,6 +14,7 @@ const AppLayout = ({ children }: any) => {
       </Head>
       <HeaderComponent />
       {children}
+      <FooterComponent />
     </>
   );
 };

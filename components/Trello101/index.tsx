@@ -7,7 +7,7 @@ const Trello101Component = () => {
   const [card, setCard] = useState("Boards");
   const [pic, setPic]: any = useState(Carousel1);
   return (
-    <div className="bg-gradient-to-r from-slate-50 via-blue-100 to-teal-100">
+    <div className="bg-gradient-to-r from-slate-50 via-blue-100 to-teal-100 pb-24 pt-2">
       <div className="container mx-auto lg:w-10/12 ">
         <h4 className="text-sm uppercase mt-1 font-bold">Trello 101</h4>
         <h2 className="text-3xl font-extrabold text-[#091e42] mt-2">
@@ -21,7 +21,7 @@ const Trello101Component = () => {
             guide for getting started.
           </span>
         </p>
-        <div className="mt-6 flex lg:flex-row items-start lg:space-x-4 w-full">
+        <div className="mt-6 flex flex-col lg:flex-row items-start lg:space-x-4 w-full">
           <div className="w-full lg:w-1/3 flex flex-col space-y-8">
             {trello101.map((item) => {
               return (
@@ -56,11 +56,11 @@ const Trello101Component = () => {
               );
             })}
           </div>
-          <div className="h-72 w-full lg:w-2/3">
+          <div className="h-72 w-full lg:w-2/3 hidden lg:flex">
             <Image
               src={pic}
               alt="image"
-              className={`w-full h-[60vh] bg-cover rounded-md`}
+              className={`w-full h-[60vh] bg-cover rounded-md hidden lg:flex`}
             />
           </div>
         </div>
