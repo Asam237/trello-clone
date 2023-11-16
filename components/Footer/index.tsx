@@ -15,7 +15,7 @@ const FooterComponent = () => {
           </div>
           {footer.map((item) => {
             return (
-              <div>
+              <div className="mx-4 lg:mx-0">
                 <h2 className="text-lg text-white">{item.title}</h2>
                 <p className="text-xs  text-white">{item.description}</p>
               </div>
@@ -25,10 +25,10 @@ const FooterComponent = () => {
       </div>
       <div className="mx-10 my-4 h-[1px] bg-gray-500"></div>
       <div className="container mx-auto lg:w-10/12">
-        <div className="flex flex-col space-y-4 lg:space-y-0 lg:flex-row lg:justify-between lg:items-center mx-10">
+        <div className="flex flex-col space-y-4 lg:space-y-0 lg:flex-row lg:justify-between lg:items-center mx-4 lg:mx-10">
           <div>
             <nav>
-              <ul className="flex items-center space-x-2 text-xs text-white">
+              <ul className="flex items-start lg:items-center space-x-2 text-xs text-white flex-col lg:flex-row space-y-2 lg:space-y-0">
                 <DropdownMenu.Root>
                   <DropdownMenu.Trigger>
                     <div className="text-base cursor-pointer">
