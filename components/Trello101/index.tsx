@@ -15,8 +15,8 @@ const Trello101Component = () => {
         </h2>
         <p className="text-xl text-gray-700 font-normal mt-6 lg:w-7/12">
           Simple, flexible, and powerful. All it takes are boards, lists, and
-          cards to get a clear view of who's doing what and what needs to get
-          done. Learn more in our{" "}
+          cards to get a clear view of who&apos;s doing what and what needs to
+          get done. Learn more in our{" "}
           <span className="text-blue-600 underline">
             guide for getting started.
           </span>
@@ -26,6 +26,7 @@ const Trello101Component = () => {
             {trello101.map((item) => {
               return (
                 <div
+                  key={item.title}
                   className={`relative ${
                     card === item.title
                       ? "bg-white text-gray-800 shadow-md rounded-md border-0 h-full p-4 md:p-6 relative text-left"
