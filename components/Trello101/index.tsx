@@ -7,7 +7,7 @@ const Trello101Component = () => {
   const [card, setCard] = useState("Boards");
   const [pic, setPic]: any = useState(Carousel1);
   return (
-    <div className="bg-gradient-to-r from-slate-50 via-blue-100 to-teal-100 pb-24 pt-2">
+    <div className="bg-gradient-to-r from-slate-50 via-blue-100 to-teal-100 pb-24 pt-6">
       <div className="container mx-auto xl:w-10/12 ">
         <h4 className="text-sm uppercase mt-1 font-bold">Trello 101</h4>
         <h2 className="text-3xl font-extrabold text-[#091e42] mt-2">

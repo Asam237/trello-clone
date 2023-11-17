@@ -19,6 +19,7 @@ const PricingComponent = () => {
             {pricings.map((item) => {
               return (
                 <div
+                  key={item.title}
                   className={`bg-white ${
                     item.index === 2 ? "border-[#00B8D9] border-2" : "border"
                   } px-6 py-10`}

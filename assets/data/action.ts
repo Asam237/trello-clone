@@ -7,6 +7,12 @@ type ActionType = {
   pic: any;
 };
 
+type Action2Type = {
+  title: string;
+  description: string;
+  color: string;
+};
+
 const actions: ActionType[] = [
   {
     title: "Integrations",
@@ -31,4 +37,25 @@ const actions: ActionType[] = [
   },
 ];
 
-export { actions };
+const actions2: Action2Type[] = [
+  {
+    color: "pink",
+    title: "Project management",
+    description:
+      "Keep tasks in order, deadlines on track, and team members aligned with Trello.",
+  },
+  {
+    color: "blue",
+    title: "Meetings",
+    description:
+      "Empower your team meetings to be more productive, empowering, and dare we say—fun.",
+  },
+  {
+    color: "rose",
+    title: "Onboarding",
+    description:
+      "Onboarding to a new company or project is a snap with Trellos visual layout of to-dos, resources, and progress tracking.",
+  },
+];
+
+export { actions, actions2 };

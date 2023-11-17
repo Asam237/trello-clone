@@ -13,8 +13,10 @@ import Women from "./women.svg";
 import Ptc from "./ptc-logo.svg";
 import Thoughtworks from "./thoughtworks.svg";
 import Visa from "./visa.svg";
+import Banner from "./banner.png";
 
 export {
+  Banner,
   Visa,
   Logo,
   Logo1,

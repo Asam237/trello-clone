@@ -12,6 +12,7 @@ const StoryComponent = () => {
         {stories.map((item) => {
           return (
             <div
+            key={item.name}
               className={`${
                 item.index === myIndex ? "flex flex-col" : "hidden"
               }`}

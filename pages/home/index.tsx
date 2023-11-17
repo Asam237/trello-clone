@@ -1,4 +1,5 @@
 import GetStarted from "../../components/GetStarted";
+import IntroComponent from "../../components/Intro";
 import JoinsComponent from "../../components/Joins";
 import PowerfulComponent from "../../components/Powerful";
 import PricingComponent from "../../components/Pricing";
@@ -12,6 +13,7 @@ import AppLayout from "../layout/app";
 const Home = () => {
   return (
     <AppLayout>
+      <IntroComponent />
       <Trello101Component />
       <TrelloActionComponent />
       <Works />
