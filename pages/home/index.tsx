@@ -1,5 +1,6 @@
 import GetStarted from "../../components/GetStarted";
 import PowerfulComponent from "../../components/Powerful";
+import PricingComponent from "../../components/Pricing";
 import StoryComponent from "../../components/Story";
 import Trello101Component from "../../components/Trello101";
 import TrelloActionComponent from "../../components/TrelloAction";
@@ -15,6 +16,7 @@ const Home = () => {
       <Works />
       <PowerfulComponent />
       <StoryComponent />
+      <PricingComponent />
       <GetStarted />
       {/* <div className="bg-pink-500 h-[60vh]">
         <h1>Hello Word</h1>
