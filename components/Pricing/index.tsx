@@ -27,16 +27,16 @@ const PricingComponent = () => {
                   <h4 className="text-base uppercase font-extrabold">
                     {item.title}
                   </h4>
-                  <div className="py-6 lg:py-10">
+                  <div className="py-3 lg:py-10">
                     <h1 className="text-3xl lg:text-5xl">
                       <span className="text-lg">$</span>
                       {item.cheap}
                       <span className="text-lg">USD</span>
                     </h1>
-                    <p className="text-xs h-12 py-4">{item.subTitle}</p>
+                    <p className="text-xs xl:h-12 py-4">{item.subTitle}</p>
                   </div>
-                  <div className="h-32 lg:h-44">
-                    <p className="text-md lg:text-lg">{item.description}</p>
+                  <div className="xl:h-44">
+                    <p className="text-md xl:text-lg">{item.description}</p>
                   </div>
                   <ButtonComponent variant="text-sm lg:text-base font-normal px-4 py-2 border border-blue-600 rounded-md mt-6 mb-10 lg:mb-16 hover:bg-cyan-50">
                     {item.button}
