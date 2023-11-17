@@ -8,6 +8,10 @@ import Board2 from "./board2.jpg";
 import Integration from "./integration.svg";
 import Gears from "./gears.svg";
 import Search from "./search.svg";
+import Quote from "./download.svg";
+import Women from "./women.svg";
+import Ptc from "./ptc-logo.svg";
+import Thoughtworks from "./thoughtworks.svg";
 
 export {
   Logo,
@@ -20,4 +24,8 @@ export {
   Integration,
   Search,
   Gears,
+  Quote,
+  Women,
+  Ptc,
+  Thoughtworks,
 };
