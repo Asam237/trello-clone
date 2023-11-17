@@ -12,8 +12,10 @@ import Quote from "./download.svg";
 import Women from "./women.svg";
 import Ptc from "./ptc-logo.svg";
 import Thoughtworks from "./thoughtworks.svg";
+import Visa from "./visa.svg";
 
 export {
+  Visa,
   Logo,
   Logo1,
   Carousel1,

@@ -2,13 +2,13 @@ import ButtonComponent from "../commons/Button";
 
 const TrelloActionComponent = () => {
   return (
-    <div className="bg-slate-50 pb-24 pt-8 lg:pt-16">
-      <div className="container mx-auto lg:w-10/12">
+    <div className="bg-slate-50 pb-24 pt-8 xl:pt-16">
+      <div className="container mx-auto xl:w-10/12">
         <h4 className="text-sm uppercase mt-1 font-bold">TRELLO IN ACTION</h4>
         <h2 className="text-3xl font-extrabold text-[#091e42] mt-2">
           Workflows for any project, big or small
         </h2>
-        <div className="flex flex-col items-start justify-center space-y-4 lg:space-y-0 lg:flex-row lg:justify-between">
+        <div className="flex flex-col items-start justify-center space-y-4 xl:space-y-0 xl:flex-row xl:justify-between">
           <p className="text-lg text-gray-700 font-normal mt-6">
             No need to start from scratch. Jump-start your workflow with a
             proven playbook

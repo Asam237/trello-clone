@@ -7,15 +7,15 @@ import { FaAngleDown, FaFacebook, FaGlobe, FaInstagram, FaLinkedin, FaTwitter, F
 
 const FooterComponent = () => {
   return (
-    <footer className="bg-[#172B4D] py-8 lg:py-8">
-      <div className="container mx-auto lg:w-10/12">
+    <footer className="bg-[#172B4D] py-8 xl:py-8">
+      <div className="container mx-auto xl:w-10/12">
         <div className="grid gap-x-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5">
           <div>
             <Image alt="logo" height={180} width={180} src={Logo1} />
           </div>
           {footer.map((item) => {
             return (
-              <div key={item.path} className="mx-4 lg:mx-0">
+              <div key={item.path} className="mx-4 xl:mx-0">
                 <h2 className="text-lg text-white">{item.title}</h2>
                 <p className="text-xs  text-white">{item.description}</p>
               </div>
@@ -24,11 +24,11 @@ const FooterComponent = () => {
         </div>
       </div>
       <div className="mx-10 my-4 h-[1px] bg-gray-500"></div>
-      <div className="container mx-auto lg:w-10/12">
-        <div className="flex flex-col space-y-4 lg:space-y-0 lg:flex-row lg:justify-between lg:items-center mx-4 lg:mx-10">
+      <div className="container mx-auto xl:w-10/12">
+        <div className="flex flex-col space-y-4 xl:space-y-0 xl:flex-row xl:justify-between xl:items-center mx-4 xl:mx-10">
           <div>
             <nav>
-              <ul className="flex items-start lg:items-center space-x-2 text-xs text-white flex-col lg:flex-row space-y-2 lg:space-y-0">
+              <ul className="flex items-start xl:items-center space-x-2 text-xs text-white flex-col xl:flex-row space-y-2 xl:space-y-0">
                 <DropdownMenu.Root>
                   <DropdownMenu.Trigger>
                     <div className="text-base cursor-pointer">
@@ -37,7 +37,7 @@ const FooterComponent = () => {
                           <FaGlobe className="mr-3" />
                         </span>
                         English
-                        <span className="mx-3 lg:mx-4">
+                        <span className="mx-3 xl:mx-4">
                           <FaAngleDown size={14} />
                         </span>
                       </h3>

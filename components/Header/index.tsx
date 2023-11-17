@@ -11,10 +11,10 @@ const HeaderComponent = () => {
   return (
     <header className="shadow-lg sticky bg-white z-50 top-0 left-0">
       <div className="container mx-auto">
-        <div className="flex items-center justify-between py-4 lg:py-0">
+        <div className="flex items-center justify-between py-4 xl:py-0">
           <div className="flex items-center space-x-4">
             <Image src={Logo} alt="logo" className="w-40 h-14 object-contain" />
-            <nav className="hidden lg:flex">
+            <nav className="hidden xl:flex">
               <ul className="flex items-center space-x-5">
                 {navs.map((item) => {
                   return (
@@ -35,7 +35,7 @@ const HeaderComponent = () => {
               </ul>
             </nav>
           </div>
-          <div className="hidden lg:flex items-center space-x-6">
+          <div className="hidden xl:flex items-center space-x-6">
             <Link href="#login" className="text-lg">
               Log In
             </Link>
@@ -43,7 +43,7 @@ const HeaderComponent = () => {
               Get Trello for free
             </ButtonComponent>
           </div>
-          <FaBars size={24} className="flex lg:hidden" />
+          <FaBars size={24} className="flex xl:hidden" />
         </div>
       </div>
     </header>

@@ -1,4 +1,5 @@
 import GetStarted from "../../components/GetStarted";
+import JoinsComponent from "../../components/Joins";
 import PowerfulComponent from "../../components/Powerful";
 import PricingComponent from "../../components/Pricing";
 import StoryComponent from "../../components/Story";
@@ -17,6 +18,7 @@ const Home = () => {
       <PowerfulComponent />
       <StoryComponent />
       <PricingComponent />
+      <JoinsComponent />
       <GetStarted />
       {/* <div className="bg-pink-500 h-[60vh]">
         <h1>Hello Word</h1>

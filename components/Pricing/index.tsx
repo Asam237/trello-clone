@@ -15,7 +15,7 @@ const PricingComponent = () => {
           <ButtonComponent variant="rounded-md text-white text-base font-normal p-3 bg-blue-500 mt-4">
             Compare plans
           </ButtonComponent>
-          <div className="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+          <div className="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
             {pricings.map((item) => {
               return (
                 <div
