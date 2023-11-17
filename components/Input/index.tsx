@@ -7,7 +7,7 @@ const InputComponent = ({ name, variant }: InputType) => {
   return (
     <input
       placeholder={name}
-      className={`p-3 border rounded-md ${variant}`}
+      className={`p-4 border rounded-md ${variant}`}
     />
   );
 };
