@@ -25,7 +25,7 @@ const Works = () => {
           <div className="bg-white rounded-md p-6 shadow-lg">
             <div className="flex flex-col lg:flex-row space-y-4 lg:space-y-0 lg:space-x-4">
               <div className="w-full lg:w-1/2">
-                <Image alt="pic" className="h-full w-auto rounded-md" src={Board1} />
+                <Image alt="pic" className="h-full w-auto rounded-md object-cover" src={Board1} />
               </div>
               <div className="w-full lg:w-1/2">
                 <div className="lg:ml-10 flex justify-center items-start flex-col">

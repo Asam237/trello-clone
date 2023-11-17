@@ -51,7 +51,7 @@ const actions2: Action2Type[] = [
       "Empower your team meetings to be more productive, empowering, and dare we say—fun.",
   },
   {
-    color: "rose",
+    color: "gray",
     title: "Onboarding",
     description:
       "Onboarding to a new company or project is a snap with Trellos visual layout of to-dos, resources, and progress tracking.",
