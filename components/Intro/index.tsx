@@ -32,7 +32,7 @@ const IntroComponent = () => {
                 </div>
               </div>
               <div className="w-full xl:w-1/2">
-                <Image src={Banner} alt="pic" className="object-cover" />
+                <Image src={Banner} alt="picture" className="object-cover" />
               </div>
             </div>
           </div>
