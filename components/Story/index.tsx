@@ -50,7 +50,7 @@ const StoryComponent = () => {
                         </p>
                       </div>
                       <div className="flex items-center justify-between mt-6">
-                        <Image src={item.logo} alt="women" className="" />
+                        <Image src={item.logo} alt="picture" className="" />
                         <p className="text-sm xl:text-base text-blue-600 underline underline-offset-2">
                           Read the story
                         </p>
