@@ -2,6 +2,7 @@ import Image from "next/image";
 import { Banner } from "../../assets/imgs";
 import InputComponent from "../Input";
 import ButtonComponent from "../commons/Button";
+import { FaPlayCircle } from "react-icons/fa";
 
 const IntroComponent = () => {
   const bg = require("../../assets/imgs/bg.svg");
@@ -29,6 +30,14 @@ const IntroComponent = () => {
                   <ButtonComponent variant="rounded-md text-white text-base xl:text-lg font-normal py-3 px-6 bg-blue-500">
                     Sign up - it&apos;s free!
                   </ButtonComponent>
+                </div>
+                <div>
+                  <p className="text-gray-200 py-6 text-sm xl:text-base underline underline-offset-2 flex flex-row items-center cursor-pointer">
+                    Watch video{" "}
+                    <span className="ml-2">
+                      <FaPlayCircle size={24}/>
+                    </span>
+                  </p>
                 </div>
               </div>
               <div className="w-full xl:w-1/2">
